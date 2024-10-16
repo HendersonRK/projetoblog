@@ -1,0 +1,55 @@
+.header {
+    background-color: var(--color-header-bg);
+}
+
+.headerContainer {        
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(100vw -((100vw - 1160px)/2));
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    margin: 0 auto; 
+    background-color: var(--color-header-bg);
+}
+
+.headerTitle {
+    font-size: 2rem;
+    color: var(--color-body-text);
+    font-weight: bold;
+}
+
+.headerNav {
+    display: none; 
+    gap: 1rem;  
+}
+
+.headerContainer a {
+    margin-right: 2rem;
+    color: var(--color-link);
+    text-decoration: none;
+    
+    &:hover {
+        color: var(--color-link-hover);
+    }
+}
+
+.labelDark{
+    align-items: last baseline;
+}
+
+@media screen and (max-width: 390px) {
+
+    i#burguer{
+        display: none;
+    }
+
+    .headerNav {
+        display: block;
+    }
+}
+

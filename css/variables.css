@@ -1,0 +1,21 @@
+:root {    
+    --color-body-text: #73706C;
+    --color-body-bg: #fafafa;
+    --color-link: #222;
+    --color-link-hover: #ec5840;
+    --color-header-bg: #D2D2C8;
+    --color-card: #E0E2D7;
+    --color-border: #E0E2D7;
+
+    --default-border-radius: 8px;
+}
+
+.dark-mode:root {
+    --color-body-text: #D9D9D9;
+    --color-body-bg: #262626;
+    --color-link: #f0f0f0;
+    --color-link-hover: #3cc368;
+    --color-header-bg: #0D0D0D;;
+    --color-card: #242611;
+    --color-border: #F2F2F2;
+}

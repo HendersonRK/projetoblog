@@ -1,0 +1,8 @@
+body {
+    padding: 25px;
+    background-color: var(--color-body-bg);
+    color: var(--color-body-text);
+    font-size: 1rem;
+    font-family: "Poppins";
+  }
+  
